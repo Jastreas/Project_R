@@ -1,9 +1,10 @@
-//this is astreas-branch
-
-#include "raylib.h"
 #include <iostream>
+#include "raylib.h"
 
 int main() {
-	std::cout << "Hello World!" << std::endl;
+	std::string name = "";
+	std::cout << "Introduce your name:\n" << std::endl;
+	std::cin >> name;
+	std::cout << "Hello " << name << "!!!!" << std::endl;
 	return 0;
 }

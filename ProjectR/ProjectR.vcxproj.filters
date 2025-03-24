@@ -1,22 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a1626a5f-0329-4a48-9b2b-5dd122f3042f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b5080026-de72-46fe-9637-4d5a6c5f464f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{b0b2d715-4560-46a0-bd12-c56bb00489f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Config">
+      <UniqueIdentifier>{ace6f7b7-6cfb-46c4-abd6-b30e3971409d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{05dba4ac-6cbd-4657-b2f3-d64114ae405c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Audio">
+      <UniqueIdentifier>{d4d4bd6c-22e8-42e9-a014-82c291368b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Audio\SFX">
+      <UniqueIdentifier>{793883ba-2ed2-4f43-aa2c-c697e3230f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Audio\Songs">
+      <UniqueIdentifier>{190a6ca9-1074-44bd-ad55-f32bc0e81b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{ff6fcd55-6ddf-40c1-a09b-b730870487de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Sprites">
+      <UniqueIdentifier>{d4d872c6-1301-4f7b-b3d2-3acd381cf355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\UI">
+      <UniqueIdentifier>{00aad82b-95e1-4dee-a785-61392490cb93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{cae6288d-e19c-4797-931b-590d6d3c6aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Maps">
+      <UniqueIdentifier>{86544454-af73-48cd-924a-90dc902f7f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{faba2b91-fdb7-4500-b6cc-38fa2bbc6bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay">
+      <UniqueIdentifier>{32e087ed-6cd4-4cde-a23a-efb82d836909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay\Note_System">
+      <UniqueIdentifier>{f912a166-836c-492e-a19c-c1e76e308fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay\Scoring">
+      <UniqueIdentifier>{8ded7ed1-aa6b-4d2b-a033-6e59e00d85be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gameplay\Timing">
+      <UniqueIdentifier>{3372945d-1a1f-4fae-b97a-acd3eb3fbdf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes">
+      <UniqueIdentifier>{81bb9ba8-3bdf-48d7-a4ef-ffe0184aab1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes\Menu_Main">
+      <UniqueIdentifier>{c4b9c662-f8c2-4d29-a092-5c45eacd6fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes\Menu_Settings">
+      <UniqueIdentifier>{9f1215dd-4462-42f8-acd3-844d998579cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{c0c4ccca-7a75-47d7-8024-3e9a3c9dde75}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <None Include="keybinds.ini">
+      <Filter>Game_Config</Filter>
+    </None>
+    <None Include="settings.cfg">
+      <Filter>Game_Config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
