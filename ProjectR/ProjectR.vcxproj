@@ -128,10 +128,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="keybinds.ini" />
+    <None Include="MapsHere.txt" />
     <None Include="settings.cfg" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core_mechanics_here.txt" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Downloads\DECO_27 - モニタリング feat. 初音ミク.mp3" />
+    <Media Include="..\..\..\..\Downloads\Warak - Reanimate.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Documentation_here.txt" />
+    <Text Include="Fontshere.txt" />
+    <Text Include="gameplay_mechanics_here.txt" />
+    <Text Include="menús_here.txt" />
+    <Text Include="Resources_Here.txt" />
+    <Text Include="sfx_here.txt" />
+    <Text Include="Sprites_here.txt" />
+    <Text Include="UI_elements_here.txt" />
+    <Text Include="utils_here.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

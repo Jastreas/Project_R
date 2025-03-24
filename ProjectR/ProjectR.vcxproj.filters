@@ -75,10 +75,53 @@
     <None Include="settings.cfg">
       <Filter>Game_Config</Filter>
     </None>
+    <None Include="MapsHere.txt">
+      <Filter>Assets\Maps</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Core_mechanics_here.txt">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Downloads\Warak - Reanimate.mp3">
+      <Filter>Assets\Audio\Songs</Filter>
+    </Media>
+    <Media Include="..\..\..\..\Downloads\DECO_27 - モニタリング feat. 初音ミク.mp3">
+      <Filter>Assets\Audio\Songs</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="sfx_here.txt">
+      <Filter>Assets\Audio\SFX</Filter>
+    </Text>
+    <Text Include="Fontshere.txt">
+      <Filter>Assets\Fonts</Filter>
+    </Text>
+    <Text Include="UI_elements_here.txt">
+      <Filter>Assets\Textures\UI</Filter>
+    </Text>
+    <Text Include="Sprites_here.txt">
+      <Filter>Assets\Textures\Sprites</Filter>
+    </Text>
+    <Text Include="Documentation_here.txt">
+      <Filter>Documentation</Filter>
+    </Text>
+    <Text Include="Resources_Here.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="gameplay_mechanics_here.txt">
+      <Filter>Source\Gameplay</Filter>
+    </Text>
+    <Text Include="menús_here.txt">
+      <Filter>Source\Scenes</Filter>
+    </Text>
+    <Text Include="utils_here.txt">
+      <Filter>Source\Utils</Filter>
+    </Text>
   </ItemGroup>
 </Project>
